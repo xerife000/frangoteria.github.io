@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar
+{
+    min-height: 8%;
+    background: #df563b;
+}
+.menu-bar img
+{
+    width: 150px;
+}
+.nav-link
+{
+    color: #FFF;
+}
+.nav-link:hover
+{
+    color: #000;
+}
+.active
+{
+    color: #D3D3D3 !important;
+}
+.navbar-toggler .fa
+{
+    color: #FFF;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.banner
+{
+    min-height: 77%;
+    color: #555;
+}
+.banner img
+{
+    margin-top: 1%;
+    width: 100%;
+    margin-right: 10%;
+}
+.info
+{
+    margin: 24% auto;
+}
+.info h1
+{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.footer-widget
+{
+    min-height: 15%;
+    background-image: linear-gradient(to top, #ff9800, #df563b);
+    padding: 21px 0;
+    display: inline-flex;
+    color: #fff;
+    
+}
+.footer-text
+{
+    padding-left: 25px;
+    
+}
+.footer-widget .fa
+{
+    font-size: 25px;
+}
+.row
+{
+    margin: 0 !important;
+}
+.socials-icons
+{
+    margin: 0 20px;
+}
+.socials-icons fa
+{
+    padding: 10px;
+}
+@media only screen and (max-width:960px)
+{
+    .footer-widget
+    {
+        background-image: linear-gradient(#ff9800, #df563b)
+    }
+}
