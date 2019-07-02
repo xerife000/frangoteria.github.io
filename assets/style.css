@@ -39,9 +39,10 @@
 }
 .banner img
 {
+    padding-right: 20px;
     margin-top: 1%;
-    width: 100%;
-    margin-right: 10%;
+    width: 110%;
+    margin-right: 50%;
 }
 .info
 {
@@ -99,7 +100,8 @@
 }
 .socials-icons fa
 {
-    font-size: 24px;
+    width: 24px !important;
+    height: 24px !important;
     padding: 10px;
 }
 @media only screen and (max-width:960px)
