@@ -60,6 +60,16 @@
     font-size: 36px;
     font-family: 'Pacifico', cursive;
 }
+.info a
+{
+    width: 160px;
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 10px 10px;
+    margin: 5%;
+    background: #25d366;
+    display: inline-block;
+}
 .footer-widget
 {
     min-height: 15%;
@@ -71,6 +81,7 @@
 }
 .footer-text
 {
+    font-size: 12px;
     padding-left: 25px;
     
 }
@@ -88,6 +99,7 @@
 }
 .socials-icons fa
 {
+    font-size: 24px;
     padding: 10px;
 }
 @media only screen and (max-width:960px)
